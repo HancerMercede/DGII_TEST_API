@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace Entities
+namespace Entities;
+
+public class ComprobantesFiscales
 {
-    internal class ComprobantesFiscales
-    {
-    }
+    public Guid Id { get; set; }
+    public string? RncCecula { get; set; }
+    public string? NCF { get; set; }
+    public double Monto { get; set; }
+    public double Itebis { get; set; }
 }

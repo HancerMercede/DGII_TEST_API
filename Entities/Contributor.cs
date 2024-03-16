@@ -7,5 +7,7 @@ public class Contributor
     public Guid ContributorId { get; set; }
     public string? RncCedula { get; set; }
     public string? Name { get; set; }
+
+    public string? Type { get; set; }
     public Status Status { get; set; }
 }

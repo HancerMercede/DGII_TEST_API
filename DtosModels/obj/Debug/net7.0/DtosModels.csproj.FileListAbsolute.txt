@@ -1,0 +1,12 @@
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\bin\Debug\net7.0\DtosModels.deps.json
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\bin\Debug\net7.0\DtosModels.dll
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\bin\Debug\net7.0\DtosModels.pdb
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.csproj.AssemblyReference.cache
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.AssemblyInfoInputs.cache
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.AssemblyInfo.cs
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.csproj.CoreCompileInputs.cache
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.dll
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\refint\DtosModels.dll
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\DtosModels.pdb
+C:\Users\HANCER MERCEDE\source\repos\DGII_TEST_API\DtosModels\obj\Debug\net7.0\ref\DtosModels.dll
