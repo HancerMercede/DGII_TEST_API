@@ -22,5 +22,9 @@ public class ContributorService : IContributorService
          !tracking ? 
           await _context.Contributors.AsNoTracking().FirstOrDefaultAsync(c => c.RncCedula == Cedula)!
             :  await _context.Contributors.FirstOrDefaultAsync(c => c.RncCedula == Cedula)!;
-    
+
+    public async Task Save()
+    {
+       await _context.SaveChangesAsync();
+    }
 }

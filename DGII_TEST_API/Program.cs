@@ -1,27 +1,24 @@
 using Contracts;
 using DGII_TEST_API.Config;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
 using Services;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(opt=> opt.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
 // Custom Services
 builder.Services.RegisterConfigurationMappers();
 builder.Services.AddTransient<IContributorService, ContributorService>();
-builder.Services.AddDbContext<ApplicationDbContext>(opt => 
-{
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("connection"));
-});
+builder.Services.AddTransient<ICFiscalesService,ComprobantesFiscalesService>();
+builder.Services.RegisteringSqlServer(builder.Configuration.GetConnectionString("connection")!);
 
 builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
