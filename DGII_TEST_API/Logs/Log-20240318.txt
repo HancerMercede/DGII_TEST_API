@@ -1,0 +1,147 @@
+2024-03-18 11:55:41.618 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:55:41.618 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:55:43.326 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:55:43.340 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:55:43.380 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:55:43.380 -04:00 [INF] returning the data.
+2024-03-18 11:55:43.417 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:55:43.417 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:55:43.474 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:55:43.474 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:55:43.475 -04:00 [INF] returning the data.
+2024-03-18 11:55:43.475 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:56:38.015 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:56:38.023 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:56:38.031 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:56:38.033 -04:00 [INF] returning the data.
+2024-03-18 11:56:38.046 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:56:38.049 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:56:38.050 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:56:38.064 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:56:38.065 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:56:38.070 -04:00 [INF] returning the data.
+2024-03-18 11:56:38.073 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:56:38.075 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:57:46.708 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:57:46.709 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:57:46.725 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:57:46.726 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:57:46.731 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:57:46.733 -04:00 [INF] returning the data.
+2024-03-18 11:57:46.737 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:57:46.739 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 11:57:46.744 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:57:46.748 -04:00 [INF] returning the dtos to the client.
+2024-03-18 11:57:46.749 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 11:57:46.752 -04:00 [INF] returning the data.
+2024-03-18 11:59:47.384 -04:00 [INF] Getting all the contributors.
+2024-03-18 11:59:47.396 -04:00 [INF] Mapping to the dtos.
+2024-03-18 11:59:47.402 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:24:25.167 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:24:25.424 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:24:25.426 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:24:25.758 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:24:25.766 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:24:25.767 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:24:41.568 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:24:41.578 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:24:41.579 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:24:42.156 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:24:42.170 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:24:42.171 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:25:36.479 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:25:36.491 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:25:36.494 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:25:37.068 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:25:37.085 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:25:37.086 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:27:55.953 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:27:55.961 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:27:55.963 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:27:55.971 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:27:55.990 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:27:55.993 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:27:59.078 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:27:59.209 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:27:59.210 -04:00 [INF] returning the data.
+2024-03-18 12:27:59.216 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:27:59.224 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:27:59.225 -04:00 [INF] returning the data.
+2024-03-18 12:28:03.620 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:28:03.626 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:28:03.627 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:28:03.632 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:28:03.637 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:28:03.639 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:28:04.877 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:28:04.882 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:28:04.884 -04:00 [INF] returning the data.
+2024-03-18 12:28:04.888 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:28:04.895 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:28:04.896 -04:00 [INF] returning the data.
+2024-03-18 12:28:08.783 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:28:08.789 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:28:08.790 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:28:08.794 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:28:08.800 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:28:08.802 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:28:11.730 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:28:11.735 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:28:11.737 -04:00 [INF] returning the data.
+2024-03-18 12:28:11.742 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:28:11.748 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:28:11.750 -04:00 [INF] returning the data.
+2024-03-18 12:29:18.729 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:29:18.736 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:29:18.738 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:29:18.742 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:29:18.747 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:29:18.756 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:29:21.465 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:29:21.473 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:29:21.474 -04:00 [INF] returning the data.
+2024-03-18 12:29:21.479 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:29:21.484 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:29:21.485 -04:00 [INF] returning the data.
+2024-03-18 12:29:28.481 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:29:28.488 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:29:28.490 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:29:28.493 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:29:28.499 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:29:28.500 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:29:32.522 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:29:32.528 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:29:32.530 -04:00 [INF] returning the data.
+2024-03-18 12:29:32.535 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:29:32.540 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:29:32.542 -04:00 [INF] returning the data.
+2024-03-18 12:30:28.570 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:30:28.583 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:30:28.584 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:30:28.602 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:30:28.620 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:30:28.622 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:33:34.241 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:33:34.251 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:33:34.252 -04:00 [INF] returning the data.
+2024-03-18 12:33:34.259 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:33:34.264 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:33:34.266 -04:00 [INF] returning the data.
+2024-03-18 12:33:36.365 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:33:36.371 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:33:36.373 -04:00 [INF] returning the data.
+2024-03-18 12:33:36.378 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:33:36.384 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:33:36.386 -04:00 [INF] returning the data.
+2024-03-18 12:35:10.939 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:35:12.568 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:35:12.629 -04:00 [INF] returning the data.
+2024-03-18 12:35:12.658 -04:00 [INF] Getting all the comprobantes.
+2024-03-18 12:35:12.688 -04:00 [INF] Mapping the info to the dtos models.
+2024-03-18 12:35:12.690 -04:00 [INF] returning the data.
+2024-03-18 12:35:32.406 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:35:32.559 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:35:32.569 -04:00 [INF] returning the dtos to the client.
+2024-03-18 12:35:32.583 -04:00 [INF] Getting all the contributors.
+2024-03-18 12:35:32.591 -04:00 [INF] Mapping to the dtos.
+2024-03-18 12:35:32.593 -04:00 [INF] returning the dtos to the client.

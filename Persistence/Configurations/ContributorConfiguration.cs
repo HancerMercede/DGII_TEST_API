@@ -26,7 +26,27 @@ public class ContributorConfiguration : IEntityTypeConfiguration<Contributor>
                 RncCedula="045788655",
                 Status = Status.Activo
 
-            }
-        ) ;
+            },
+            new Contributor
+            {
+                ContributorId = Guid.NewGuid(),
+                Name = "Juan Perez".ToUpper(),
+                Type = "Persona Fisica".ToUpper(),
+                RncCedula = "98754321012",
+                Status = Status.Activo
+
+            },
+             new Contributor
+             {
+                 ContributorId = Guid.NewGuid(),
+                 Name = "Juan Carlos Gomez".ToUpper(),
+                 Type = "Persona Fisica".ToUpper(),
+                 RncCedula = "050258786",
+                 Status = Status.Activo
+
+             }
+
+
+) ;
     }
 }

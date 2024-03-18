@@ -24,8 +24,23 @@ public class ComprobantesFiscalesConfiguration : IEntityTypeConfiguration<Compro
                 NCF = "E310000000002",
                 Monto = 2700.00,
                 Itebis = 486.00
-            }
-
-            );
+            },
+             new ComprobanteFiscal
+             {
+                 Id = Guid.NewGuid(),
+                 RncCedula = "98754321012",
+                 NCF = "E310000000003",
+                 Monto = 2700.00,
+                 Itebis = 486.00
+             },
+              new ComprobanteFiscal
+              {
+                  Id = Guid.NewGuid(),
+                  RncCedula = "045788655",
+                  NCF = "E310000000004",
+                  Monto = 2300.00,
+                  Itebis = 414.00
+              }
+          );
     }
 }
