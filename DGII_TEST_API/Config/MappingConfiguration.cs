@@ -1,18 +1,12 @@
-﻿using DtosModels;
-using DtosModels.Dtos;
-using Entities;
-using Mapster;
-using System.Reflection;
+﻿namespace DGII_TEST_API.Config;
 
-namespace DGII_TEST_API.Config
+public static class MappingConfiguration
 {
-    public static class MappingConfiguration
+    public static void RegisterConfigurationMappers(this IServiceCollection services)
     {
-        public static void RegisterConfigurationMappers(this IServiceCollection services)
-        {
-            TypeAdapterConfig<Contributor, ContributorDto>.NewConfig();
-            TypeAdapterConfig<ComprobanteFiscal, ComprobanteFiscalDto>.NewConfig().Map(dest => dest.Total, src =>  src.Monto + src.Itebis);
-            TypeAdapterConfig.GlobalSettings.Scan(Assembly.GetExecutingAssembly());
-        }
+        TypeAdapterConfig<Contributor, ContributorDto>.NewConfig();
+        TypeAdapterConfig<ComprobanteFiscal, ComprobanteFiscalDto>.NewConfig()
+            .Map(dest => dest.Total, src =>  src.Monto + src.Itebis);
+        TypeAdapterConfig.GlobalSettings.Scan(Assembly.GetExecutingAssembly());
     }
 }

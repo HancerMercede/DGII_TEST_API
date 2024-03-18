@@ -1,9 +1,4 @@
-﻿using Contracts;
-using DtosModels;
-using Mapster;
-using Microsoft.AspNetCore.Mvc;
-
-namespace DGII_TEST_API.Controllers;
+﻿namespace DGII_TEST_API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -22,13 +17,17 @@ public class ContributorController : ControllerBase
     }
 
     [HttpGet(Name = "GetAll")]
-    
     public async Task<IEnumerable<ContributorDto>> GetAll() {
         try
         {
             _logger.LogInformation("Getting all the contributors.");
             var contributors = await _service.GetAll();
+
+            _logger.LogInformation("Mapping to the dtos.");
             var dtos = contributors.Adapt<IEnumerable<ContributorDto>>();
+
+
+            _logger.LogInformation("returning the dtos to the client.");
             return dtos;
         }
         catch (Exception ex)
@@ -40,7 +39,6 @@ public class ContributorController : ControllerBase
     }
 
     [HttpGet("{Cedula}", Name = "GetByCedula")]
-    
     public async Task<ContributorDto> GetById(string Cedula) {
 
         _logger.LogInformation("Getting the entity in the db.");
@@ -53,4 +51,25 @@ public class ContributorController : ControllerBase
         return dto;
     
   }
+
+    [HttpPost]
+    public async Task<ActionResult<ContributorDto>> Create([FromBody] ContributorCreateDto model)
+    {
+        if (model is null) return BadRequest("The model can be null");
+
+        var UpperName = model?.Name?.ToUpper();
+        var UpperType = model?.Type?.ToUpper();
+        model.Name = UpperName;
+        model.Type = UpperType;
+
+        var dbEntity = model.Adapt<Contributor>();
+
+        await _service.Create(dbEntity);
+        await _service.Save();
+
+        var dto = dbEntity.Adapt(model);
+        return CreatedAtRoute("GetByCedula", new { Cedula = dto?.RncCedula }, dto);
+    }
+        
+
 }

@@ -12,6 +12,21 @@ public class ContributorService : IContributorService
     {
         _context = context; 
     }
+
+    public async Task Create(Contributor model)
+    {
+        try
+        {
+            if (model is null) throw new ArgumentNullException();
+           
+            await _context.AddAsync(model!);
+        }
+        catch (Exception ex)
+        {
+            throw new Exception(ex.Message);
+        }
+    }
+
     public async Task<IEnumerable<Contributor>> GetAll()
     {
         return await _context.Contributors.ToListAsync();
@@ -20,8 +35,8 @@ public class ContributorService : IContributorService
     public async Task<Contributor?> GetByDNI(string Cedula, bool tracking) =>
     
          !tracking ? 
-          await _context.Contributors.AsNoTracking().FirstOrDefaultAsync(c => c.RncCedula == Cedula)!
-            :  await _context.Contributors.FirstOrDefaultAsync(c => c.RncCedula == Cedula)!;
+          await _context.Contributors.AsNoTracking().FirstOrDefaultAsync(c => c.RncCedula == Cedula)
+            :  await _context.Contributors.FirstOrDefaultAsync(c => c.RncCedula == Cedula);
 
     public async Task Save()
     {

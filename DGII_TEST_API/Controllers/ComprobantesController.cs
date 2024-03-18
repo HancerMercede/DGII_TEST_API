@@ -1,9 +1,4 @@
-﻿using Contracts;
-using DtosModels.Dtos;
-using Mapster;
-using Microsoft.AspNetCore.Mvc;
-
-namespace DGII_TEST_API.Controllers;
+﻿namespace DGII_TEST_API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -48,7 +43,7 @@ public class ComprobantesController:ControllerBase
         try
         {
             _logger.LogInformation("Getting the comprobante by its Id.");
-            var dbEntity = await _service.GetById(Id);
+            var dbEntity = await _service.GetById(Id, tracking:false);
 
             _logger.LogInformation("Mapping the info to the dto model.");
             var dto = dbEntity.Adapt<ComprobanteFiscalDto>();

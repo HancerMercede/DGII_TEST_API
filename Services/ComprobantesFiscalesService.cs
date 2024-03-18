@@ -24,8 +24,9 @@ public class ComprobantesFiscalesService : ICFiscalesService
             .ToListAsync();
     }
 
-    public Task<ComprobanteFiscal> GetById(string Id)
+    public async Task<ComprobanteFiscal?> GetById(string Id, bool tracking)
     {
-        throw new NotImplementedException();
+        return !tracking ? await _context.ComprobantesFiscales.AsNoTracking().FirstOrDefaultAsync(cf => cf.Id == Guid.Parse(Id)!) :
+            await _context.ComprobantesFiscales.FirstOrDefaultAsync(cf => cf.Id == Guid.Parse(Id)!);
     }
 }

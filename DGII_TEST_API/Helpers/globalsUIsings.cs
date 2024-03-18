@@ -1,0 +1,9 @@
+﻿global using Contracts;
+global using DtosModels.Dtos;
+global using Mapster;
+global using Microsoft.AspNetCore.Mvc;
+global using DtosModels;
+global using Entities;
+global using System.Reflection;
+global using Microsoft.EntityFrameworkCore;
+global using Persistence;

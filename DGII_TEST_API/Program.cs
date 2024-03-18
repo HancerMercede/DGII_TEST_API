@@ -1,6 +1,7 @@
 using Contracts;
 using DGII_TEST_API.Config;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using Services;
 using System.Text.Json.Serialization;
 
@@ -18,6 +19,13 @@ builder.Services.AddTransient<IContributorService, ContributorService>();
 builder.Services.AddTransient<ICFiscalesService,ComprobantesFiscalesService>();
 builder.Services.RegisteringSqlServer(builder.Configuration.GetConnectionString("connection")!);
 
+// Cors
+builder.Services.ConfiguredCors();
+
+// Serilog
+builder.Host.UseSerilog((ctx, lc) =>
+     lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
+
 builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
@@ -29,6 +37,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

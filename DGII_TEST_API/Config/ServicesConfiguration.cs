@@ -1,9 +1,4 @@
-﻿using Contracts;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-using Services;
-
-namespace DGII_TEST_API.Config;
+﻿namespace DGII_TEST_API.Config;
 
 public static class ServicesConfiguration
 {
@@ -14,4 +9,14 @@ public static class ServicesConfiguration
             opt.UseSqlServer(connection);
         });
     }
+
+    public static void ConfiguredCors(this IServiceCollection services) =>
+       services.AddCors(opt =>
+       {
+           opt.AddPolicy("AllowAll", builder =>
+              builder.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader());
+       });
+
 }
